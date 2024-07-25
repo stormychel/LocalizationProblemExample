@@ -17,6 +17,8 @@
 		D913B06E2C52992200DFF332 /* LocalizationProblemExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B06D2C52992200DFF332 /* LocalizationProblemExampleUITests.swift */; };
 		D913B0702C52992200DFF332 /* LocalizationProblemExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B06F2C52992200DFF332 /* LocalizationProblemExampleUITestsLaunchTests.swift */; };
 		D913B07D2C529A9700DFF332 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B07C2C529A9700DFF332 /* Constants.swift */; };
+		D9687B6F2C529D9C00A65341 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D9687B6E2C529D9C00A65341 /* Localizable.xcstrings */; };
+		D9687B712C529D9C00A65341 /* LocalizationProblemExample-InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D9687B702C529D9C00A65341 /* LocalizationProblemExample-InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D913B06D2C52992200DFF332 /* LocalizationProblemExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProblemExampleUITests.swift; sourceTree = "<group>"; };
 		D913B06F2C52992200DFF332 /* LocalizationProblemExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProblemExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D913B07C2C529A9700DFF332 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D9687B6E2C529D9C00A65341 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		D9687B702C529D9C00A65341 /* LocalizationProblemExample-InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = "LocalizationProblemExample-InfoPlist.xcstrings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		D913B04B2C52992100DFF332 /* LocalizationProblemExample */ = {
 			isa = PBXGroup;
 			children = (
+				D9687B6E2C529D9C00A65341 /* Localizable.xcstrings */,
+				D9687B702C529D9C00A65341 /* LocalizationProblemExample-InfoPlist.xcstrings */,
 				D913B04C2C52992100DFF332 /* LocalizationProblemExampleApp.swift */,
 				D913B04E2C52992100DFF332 /* ContentView.swift */,
 				D913B07C2C529A9700DFF332 /* Constants.swift */,
@@ -283,8 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9687B712C529D9C00A65341 /* LocalizationProblemExample-InfoPlist.xcstrings in Resources */,
 				D913B0542C52992200DFF332 /* Preview Assets.xcassets in Resources */,
 				D913B0512C52992200DFF332 /* Assets.xcassets in Resources */,
+				D9687B6F2C529D9C00A65341 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
