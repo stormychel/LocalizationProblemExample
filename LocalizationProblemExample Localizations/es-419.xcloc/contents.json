@@ -1,0 +1,12 @@
+{
+  "developmentRegion" : "en",
+  "project" : "LocalizationProblemExample.xcodeproj",
+  "targetLocale" : "es-419",
+  "toolInfo" : {
+    "toolBuildNumber" : "16A5171c",
+    "toolID" : "com.apple.dt.xcode",
+    "toolName" : "Xcode",
+    "toolVersion" : "16.0"
+  },
+  "version" : "1.0"
+}

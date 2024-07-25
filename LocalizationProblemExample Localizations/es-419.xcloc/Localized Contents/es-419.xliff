@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="LocalizationProblemExample/Localizable.xcstrings" source-language="en" target-language="es-419" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.0" build-num="16A5171c"/>
+    </header>
+    <body>
+      <trans-unit id="Add Item" xml:space="preserve">
+        <source>Add Item</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Item at %@" xml:space="preserve">
+        <source>Item at %@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Select an item" xml:space="preserve">
+        <source>Select an item</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Text for title one." xml:space="preserve">
+        <source>Text for title one.</source>
+        <note>text seen at title 1</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LocalizationProblemExample/LocalizationProblemExample-InfoPlist.xcstrings" source-language="en" target-language="es-419" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.0" build-num="16A5171c"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>LocalizationProblemExample</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSHumanReadableCopyright" xml:space="preserve">
+        <source/>
+        <note>Copyright (human-readable)</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

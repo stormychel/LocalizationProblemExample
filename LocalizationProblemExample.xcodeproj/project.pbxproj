@@ -16,6 +16,7 @@
 		D913B0642C52992200DFF332 /* LocalizationProblemExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B0632C52992200DFF332 /* LocalizationProblemExampleTests.swift */; };
 		D913B06E2C52992200DFF332 /* LocalizationProblemExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B06D2C52992200DFF332 /* LocalizationProblemExampleUITests.swift */; };
 		D913B0702C52992200DFF332 /* LocalizationProblemExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B06F2C52992200DFF332 /* LocalizationProblemExampleUITestsLaunchTests.swift */; };
+		D913B07D2C529A9700DFF332 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D913B07C2C529A9700DFF332 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D913B0692C52992200DFF332 /* LocalizationProblemExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationProblemExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D913B06D2C52992200DFF332 /* LocalizationProblemExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProblemExampleUITests.swift; sourceTree = "<group>"; };
 		D913B06F2C52992200DFF332 /* LocalizationProblemExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationProblemExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D913B07C2C529A9700DFF332 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D913B04C2C52992100DFF332 /* LocalizationProblemExampleApp.swift */,
 				D913B04E2C52992100DFF332 /* ContentView.swift */,
+				D913B07C2C529A9700DFF332 /* Constants.swift */,
 				D913B0502C52992200DFF332 /* Assets.xcassets */,
 				D913B0552C52992200DFF332 /* Persistence.swift */,
 				D913B05A2C52992200DFF332 /* LocalizationProblemExample.entitlements */,
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D913B07D2C529A9700DFF332 /* Constants.swift in Sources */,
 				D913B0562C52992200DFF332 /* Persistence.swift in Sources */,
 				D913B0592C52992200DFF332 /* LocalizationProblemExample.xcdatamodeld in Sources */,
 				D913B04F2C52992100DFF332 /* ContentView.swift in Sources */,
